@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+/* Parchment background for main card */
+.parchment-bg {
+  background: url('https://www.transparenttextures.com/patterns/old-mathematics.png'), #f8f5e4;
+  background-blend-mode: multiply;
+  box-shadow: 0 8px 32px 0 rgba(44,0,62,0.25);
+}
+
+/* Dark academia background for body */
+body {
+  @apply bg-gradient-to-br from-[#232526] via-[#3a2c2a] to-[#1a1a2e] dark:from-[#18141c] dark:via-[#232526] dark:to-[#2c003e];
+  min-height: 100vh;
+}
